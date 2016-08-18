@@ -1,0 +1,31 @@
+How did viewing a diff between two versions help you spot the bug?
+answer: the differences between 2 versions are the places in which bugs
+ are most likely to occur. it is the differences(intentional or not)
+  that make the bug appears in one version, not the other.
+
+HHow could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+answer: cause whenever a bug or a problem occurs, it is best to have historic versions to trace back to the older version where the bug does
+not occur, then it is much easier to compare there 2 files to spot the 
+differences, thus the bug and issues.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+answer: pro: manually commit is decided by the programmer, which is on his judgment. therefore, it is most flexible.
+con: sometimes the programmer might be forgettable.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+answer: my guess is that for programming files, codes are most likely interelated among several files, so it will be convienient, sometimes necessary, to saving multiple files in one conmmit.
+
+as for Google Docs, most of the documents are independent, therefore it is fine to just save one file at a time.
+
+How can you use the commands git log and git diff to view the history of files?
+answer:1.cd to the right directory;
+    	2.git log to view the history of the commits;
+    	3.git diff previous_commit_id next_commit_id;
+
+How might using version control make you more confident to make changes that could break something?
+answer: because i can use git checkout to go back( restore) previous commits, to check out the first commit that the bug in question is spotted. then i can use git diff to compare the two commits and find out the problem. 
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+ answer: version control, git log for history of commits, git diff to compare different commits, git checkout to restore back to previous commit....
+ another advantage: take bold steps to work on the program and not being worried about the breakdown of the whole programme.
+ 
